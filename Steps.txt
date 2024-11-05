@@ -1,0 +1,18 @@
+Steps--
+
+1. terminal install the httpd package
+----- sudo dnf install httpd
+2. start the httpd service
+---- sudo systemctl start httpd.service
+3. enable httpd to start on boot-- to ensure that httpd service starts automatically on boot
+---- sudo systemctl enable httpd.service
+4. navigate to the web directory
+---- cd /var/www/html
+5. create an html file
+touch index.html
+6. create a css file
+touch one.css
+7. edit the html file or any file
+sudo vi index.html/sudo vi one.css
+
+just save it and then go to the browser and type localhost.
